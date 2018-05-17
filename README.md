@@ -1,0 +1,7 @@
+# Resume
+Resume written in HTML inspired by a template for LaTeX.
+
+Author: Manfred Cheung
+
+## To Export
+Print to PDF using Google Chrome
