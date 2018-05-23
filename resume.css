@@ -107,13 +107,13 @@ li {
 	background: linear-gradient(to right, black, var(--color-highlight), transparent);
 }
 
-.resume-experience-header {
+.resume-row-header {
 	display: flex;
 }
-.resume-experience-title {
+.resume-row-title {
 	font-weight: 600;
 }
-.resume-experience-company {
+.resume-row-company {
 	flex-grow: 1;
 	display: flex;
 	align-items: center;
@@ -123,11 +123,11 @@ li {
 	font-weight: 500;
 	letter-spacing: 0px;
 }
-.resume-experience-company::before {
+.resume-row-company::before {
 	content: '•';
 	padding: 0 7px;
 }
-.resume-experience-date {
+.resume-row-date {
 	font-size: 9px;
 	font-weight: 400;
 	opacity: 0.4;
