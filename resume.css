@@ -3,6 +3,7 @@
 	--size-height: 11in;
 	--margin-width: 15mm;
 	--color-main: #353839;
+	--color-light: #767676;
 	--color-highlight: #002395;
 }
 
@@ -117,10 +118,10 @@ li {
 	flex-grow: 1;
 	display: flex;
 	align-items: center;
-	opacity: 0.6;
 	font-variant: small-caps;
 	font-size: 10px;
 	font-weight: 500;
+	color: var(--color-light);
 	letter-spacing: 0px;
 }
 .resume-row-company::before {
@@ -130,7 +131,7 @@ li {
 .resume-row-date {
 	font-size: 9px;
 	font-weight: 400;
-	opacity: 0.4;
+	color: var(--color-light);
 }
 
 .footer {
@@ -138,7 +139,8 @@ li {
 	align-items: center;
 	justify-content: center;
 	margin-top: 30px;
-	color: lightgrey;
+	color: var(--color-light);
+	opacity: 0.5;
 }
 .footer > i {
 	font-size: 9px;
