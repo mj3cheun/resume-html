@@ -2,6 +2,7 @@
 	--size-width: 8.5in;
 	--size-height: 11in;
 	--margin-width: 15mm;
+	--margin-height: 12.5mm;
 	--color-main: #353839;
 	--color-light: #767676;
 	--color-highlight: #002395;
@@ -18,7 +19,7 @@ body {
 	-webkit-print-color-adjust: exact !important;
 	width: calc(var(--size-width) - 2*var(--margin-width));
 	height: calc(var(--size-height) - 2*var(--margin-width));
-	padding: var(--margin-width);
+	padding: var(--margin-height) var(--margin-width);
 	border: 0px solid black;
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
@@ -88,16 +89,13 @@ li {
 }
 
 .resume-section {
-	margin-bottom: 28px;
+	margin-bottom: 14px;
 }
 
 .resume-header {
 	font-weight: 700;
 	font-size: 18px;
 	display: flex;
-}
-.resume-header > .char1,.char2,.char3 {
-	color: var(--color-highlight);
 }
 .resume-header::after {
 	content: '';

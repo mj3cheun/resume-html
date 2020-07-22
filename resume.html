@@ -20,7 +20,6 @@ Thank you for visiting my resume page!
 		<div class='resume-name'>
 			<span class='resume-first-name'>Manfred</span><span class='resume-name-bullet'>•</span><span class='resume-last-name'>Cheung</span>
 		</div>
-		<div class='resume-term'>Engineering • Development • Design</div>
 		<div class='resume-contact-list'>
 			<a href='tel:1-647-389-4841'>
 				<i class='fas fa-mobile-alt'></i>
@@ -30,13 +29,13 @@ Thank you for visiting my resume page!
 				<i class='fas fa-envelope'></i>
 				manfred-cheung@hotmail.com
 			</a>
-			<a target='_blank' href='http://mj3cheun.github.io'>
-				<i class='fas fa-desktop'></i>
-				mj3cheun.github.io
-			</a>
 			<a target='_blank' href='https://github.com/mj3cheun'>
 				<i class='fab fa-github'></i>
 				mj3cheun
+			</a>
+			<a target='_blank' href='http://mj3cheun.github.io'>
+				<i class='fas fa-desktop'></i>
+				mj3cheun.github.io
 			</a>
 		</div>
 
@@ -47,9 +46,9 @@ Thank you for visiting my resume page!
 				Technical Skills
 			</div>
 			<ul class='resume-list'>
-				<li>Proficient with ES6 JavaScript, React, Bootstrap, Node, JQuery, CSS/SASS, and Git SCM</li>
-				<li>Familiar with D3, ThreeJS, and MATLAB</li>
-				<li>Experience with of Java, PHP, Ruby, C++, C#, and mySQL</li>
+				<li>Expertise with ES6 JavaScript, React, Bootstrap, Node, CSS/SASS, and Git SCM</li>
+				<li>Familiar with Cytoscape, D3, Three.js, jQuery, and MATLAB</li>
+				<li>Experience with Java, Python, PHP, Ruby, C++, C#, and MySQL</li>
 			</ul>
 		</div>
 
@@ -72,16 +71,16 @@ Thank you for visiting my resume page!
 				</div>
 				<ul class='resume-list'>
 					<li>
-						Worked on Dash-Cytoscape and Dash-Bio, open source libraries used for graph theory and bioinformatics visualization respectively 
+						Made dash-cytoscape responsive by <strong>designing</strong> and <strong>implementing</strong> a resize algorithm which maintains the general size and position of the graph while accounting for any possible change in the browser window dimensions or aspect ratio
 					</li>
 					<li>
-						<strong>Evaluated and integrated 3rd-party plugins</strong> into Dash-Cytoscape such as a graph node context menu plugin
+						<strong>Optimized</strong> the speck React component of dash-bio by <strong>memoizing</strong> expensive operations and <strong>decoupling</strong> speck component updates from dash-bio with a debouncer and prop comparison functions to maintain 60 fps at all times running on reasonably powerful hardware
 					</li>
 					<li>
-						<strong>Developed new requested features</strong> for Dash such as an addition to Dash-Cytoscape to <strong>make Cytoscape responsive</strong>
+						<strong>Made contributions</strong> to the 3rd-party open source library ideogram.js to <strong>fix issues</strong> such as load race conditions and <strong>increase performance</strong> by combining all ideogram diagram elements into a single layer to minimize browser repaints on scroll
 					</li>
 					<li>
-						Optimized in-house components and made contributions to Dash supported 3rd-party open source components for <strong>speed, reliability, and readability</strong>
+						<strong>Evaluated</strong> 3rd-party plugins for integration into dash-cytoscape by looking at compatibility, development time costs, and current needs
 					</li>
 				</ul>
 			</div>
@@ -99,13 +98,13 @@ Thank you for visiting my resume page!
 				</div>
 				<ul class='resume-list'>
 					<li>
-						Led the integration of a semi-autonomous customer service platform <strong>improving customer service and reducing operational costs</strong>
+						Served as the primary developer responsible for <strong>incorporating</strong> the Zendesk ticketing system, <strong>improving</strong> service and <strong>reducing</strong> operational costs by streamlining communication between customers and account managers as well as within the company
 					</li>
 					<li>
-						Consolidated authentication for multiple platforms using single-sign-on (SSO) to <strong>make navigation between platforms seamless</strong>
+						<strong>Consolidated</strong> Zendesk and Stackadapt authentication using single-sign-on (SSO) by <strong>integrating</strong> Zendesk API functions into the existing login logic to make navigation between platforms seamless
 					</li>
 					<li>
-						<strong>Developed reusable components</strong> for the in-house React component library and the product itself <strong>using good API design principles</strong>
+						<strong>Developed</strong> reusable components for the internal React library and the customer service platform using good API design principles
 					</li>
 				</ul>
 			</div>
@@ -123,16 +122,13 @@ Thank you for visiting my resume page!
 				</div>
 				<ul class='resume-list'>
 					<li>
-						Performed maintenance on and <strong>added significant features to Cytoscape</strong>, a widely-used JavaScript <strong>graph theory visualisation library</strong>
+						<strong>Fixed</strong> community reported bugs and <strong>added</strong> significant features to Cytoscape, a JavaScript graph theory visualization library used by FaceBook and Microsoft among many others, such as the ability to layer multiple background images in a single node
 					</li>
 					<li>
-						Investigated how researchers use biological pathway information with the goal of <strong>bridging the gap between the data and its users</strong>
+						<strong>Designed</strong> Pathway Search, an open-source web application which made the Pathway Commons biological pathways database searchable and viewable for biologists and researchers using the React/Bootstrap ecosystem
 					</li>
 					<li>
-						Designed Pathway Search, an open-source web application which <strong>makes the Pathway Commons biological pathways database searchable and viewable</strong> for biologists and researchers, using the React ecosystem
-					</li>
-					<li>
-						Developed, tested, and released the pathway-commons JavaScript library on NPM to <strong>ease and optimize Pathway Commons queries</strong>
+						<strong>Developed, tested, and released</strong> the pathway-commons JavaScript library on NPM which provides a simple, intuitive, human-readable JavaScript interface for computational biologists and application developers to query the Pathway Commons REST API
 					</li>
 				</ul>
 			</div>
@@ -150,14 +146,16 @@ Thank you for visiting my resume page!
 				</div>
 				<ul class='resume-list'>
 					<li>
-						Redesigned the architecture of Peekapak's site front-end using React and Bootstrap, <strong>increasing code reliability and maintainability</strong>
+						<strong>Removed</strong> redundant backend API calls and consolidated endpoints, <strong>reducing load times</strong> from 3 seconds to 0.5 seconds on average
 					</li>
 					<li>
-						Rebuilt the way browser-side code interacts with the REST interface, <strong>reducing load times from 3 seconds to 0.5 seconds on average</strong>
+						<strong>Created</strong> a fully functioning REST interface using the polyglot Vert.x framework to recieve billing transactions using the Braintree service with the goal of <strong>replacing</strong> manual invoice and billing, improving customer experience and increasing efficiency
 					</li>
+					<!--
 					<li>
-						Created a fully functioning REST interface to <strong>handle billing transactions using the polyglot Vert.x framework</strong> with Java and Javascript
+						<strong>Redesigned</strong> the architecture of Peekapak's site front-end using React and Bootstrap, <strong>increasing</strong> code reliability and maintainability
 					</li>
+					-->
 				</ul>
 			</div>
 			<div class='resume-experience'>
@@ -174,10 +172,10 @@ Thank you for visiting my resume page!
 				</div>
 				<ul class='resume-list'>
 					<li>
-						Created an athlete headshot processing tool which allows images to be validated <strong>eight times more efficiently and more accurately</strong>
+						<strong>Created</strong> an athlete headshot processing tool which allowed images to be <strong>validated</strong> eight times more efficiently by providing a side-by-side comparison of old and new headshots and allowing images to be accepted or rejected using a UI, replacing manual file comparison
 					</li>
 					<li>
-						Devised a WordPress caching fail-safe that <strong>reduces site downtime twelve fold</strong> in the event the back-end query servers go offline
+						<strong>Devised</strong> a WordPress caching fail-safe that <strong>reduced</strong> site downtime twelve-fold in the event the back-end query servers go offline
 					</li>
 				</ul>
 			</div>
@@ -216,13 +214,13 @@ Thank you for visiting my resume page!
 				</div>
 				<ul class='resume-list'>
 					<li>
-						<strong>Built a modular interface framework</strong> for the UWAFT Chevrolet Blazer Competition Vehicle to serve all current and future connected autonomous vehicle applications <strong>without compromising driver safety and cabin refinement</strong>
+						<strong>Constructed</strong> an infotainment framework for the UWAFT Chevrolet Blazer Competition Vehicle to serve current and future connected autonomous vehicle applications without compromising cabin refinement through intuitive interface design and beautiful aesthetics
 					</li>
 					<li>
-						Wrote interface specifications for both data and interface applications to <strong>encourage modularity and reduce implementation costs</strong>
+						<strong>Created</strong> and <strong>developed</strong> interface applications including an animated instrument cluster, built using Three.js with custom OpenGL shaders, <strong>designed</strong> using human factors engineering principles to enhance usability and safety on the road
 					</li>
 					<li>
-						Designed and developed interface applications including an instrument cluster with ThreeJS using <strong>human factors engineering principles</strong>
+						<strong>Built</strong> and <strong>documented</strong> interfaces for both back-end and front-end applications to connect to the framework, discouraging unnecessary cross-appplication interactions using opinionated interface design to encourage modularity and reduce development costs
 					</li>
 				</ul>
 			</div>
@@ -258,15 +256,6 @@ Thank you for visiting my resume page!
 				</ul>
 			</div>
 			-->
-			<div class='resume-experience'>
-				<div class='resume-row-header'>
-					<div class='resume-row-title'>
-						<a target='_blank' href='https://github.com/mj3cheun'>
-							More found on Github...
-						</a>
-					</div>
-				</div>
-			</div>
 		</div>
 
 
@@ -278,19 +267,12 @@ Thank you for visiting my resume page!
 			<div class='resume-experience'>
 				<div class='resume-row-header'>
 					<div class='resume-row-title'>
-						Systems Design Engineering - BASc (Hons)
+						Honours Systems Design Engineering - Economics Minor
 					</div>
 					<div class='resume-row-company'>
-						University of Waterloo - 2020
+						Bachelor of Applied Science
 					</div>
-				</div>
-			</div>
-			<div class='resume-experience'>
-				<div class='resume-row-header'>
-					<div class='resume-row-title'>
-						Economics - Minor
-					</div>
-					<div class='resume-row-company'>
+					<div class='resume-row-date'>
 						University of Waterloo - 2020
 					</div>
 				</div>
@@ -298,7 +280,7 @@ Thank you for visiting my resume page!
 		</div>
 
 		<a class='footer' target='_blank' href='https://github.com/mj3cheun/resume-html'>
-			Résumé made with <i class='fas fa-heart'></i> using HTML CSS and JS
+			Résumé made with <i class='fas fa-heart'></i> using HTML and CSS
 		</a>
 
 </div>
