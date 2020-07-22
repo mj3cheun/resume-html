@@ -47,6 +47,13 @@ li {
 	height: 14px;
 }
 
+.resume-name-header {
+	display: flex;
+	justify-content: space-between;
+}
+.resume-name-header > div {
+	max-width: 45%;
+}
 .resume-name {
 	font-size: 38px;
 	letter-spacing: 0;
@@ -73,22 +80,27 @@ li {
 }
 
 .resume-contact-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 2px;
 	font-size: 12px;
 	font-weight: 400;
 }
 .resume-contact-list > a {
-	display: inline-block;
+	display: flex;
+	font-size: 11px;
 }
 .resume-contact-list > a > i {
 	margin-right: 7px;
+	display: flex;
+	align-items: center;
 }
-.resume-contact-list > a::after {
+.resume-contact-list > a:nth-child(odd)::after {
 	content: '•';
 	padding: 0 7px;
 	color: grey;
-}
-.resume-contact-list > a:last-child::after {
-	color: transparent;
 }
 
 .resume-section {
@@ -139,7 +151,7 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 24px;
+	margin-top: 28px;
 	color: var(--color-light);
 	opacity: 0.5;
 }
