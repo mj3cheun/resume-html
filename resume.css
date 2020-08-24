@@ -1,7 +1,7 @@
 :root {
 	--size-width: 8.5in;
 	--size-height: 11in;
-	--margin-width: 15mm;
+	--margin-width: 13mm;
 	--margin-height: 13mm;
 	--color-main: #353839;
 	--color-light: #767676;
@@ -24,7 +24,7 @@ body {
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: 400;
 	color: var(--color-main);
 	letter-spacing: -0.2px;
 }
