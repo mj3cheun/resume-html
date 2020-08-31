@@ -2,7 +2,7 @@
 	--size-width: 8.5in;
 	--size-height: 11in;
 	--margin-width: 13mm;
-	--margin-height: 13mm;
+	--margin-height: 7mm;
 	--color-main: #353839;
 	--color-light: #767676;
 	--color-highlight: #002395;
@@ -37,10 +37,12 @@ a {
 
 ul {
 	padding-left: 15px;
+	margin-top: 6px;
 }
 
 li {
 	line-height: 1.20;
+	padding: 1px 0;
 }
 
 .spacer {
@@ -70,6 +72,12 @@ li {
 }
 .resume-name-spacer {
 	height: 12px;
+}
+
+.resume-courses {
+	margin-top: 6px;
+	font-size: 11.5px;
+	font-style: italic;
 }
 
 .resume-term {
