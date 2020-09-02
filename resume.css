@@ -58,7 +58,7 @@ li {
 	justify-content: space-between;
 }
 .resume-name-header > div {
-	max-width: 45%;
+	max-width: 50%;
 }
 .resume-name {
 	font-size: 38px;
@@ -100,16 +100,19 @@ li {
 	font-size: 12px;
 	font-weight: 400;
 }
-.resume-contact-list > a {
+.resume-contact-list-row {
+	display: flex;
+}
+.resume-contact-list-row > a {
 	display: flex;
 	font-size: 11px;
 }
-.resume-contact-list > a > i {
+.resume-contact-list-row > a > i {
 	margin-right: 7px;
 	display: flex;
 	align-items: center;
 }
-.resume-contact-list > a:nth-child(odd)::after {
+.resume-contact-list-row > a:not(:last-child)::after {
 	content: '•';
 	padding: 0 7px;
 	color: grey;
